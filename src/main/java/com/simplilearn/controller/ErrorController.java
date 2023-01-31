@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ErrorController {
 
-	@GetMapping("/calculate")
+	@GetMapping("/calculate1")
 	public int calculate() {
 		int a = 5;
 		int b = 0;
